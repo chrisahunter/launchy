@@ -65,6 +65,10 @@
             opacity: 0.8;
         }
 
+        nav a.active {
+            border-bottom: 2px solid white;
+        }
+
         .mobile-menu-btn {
             display: none;
             background: none;
@@ -273,8 +277,8 @@
             <div class="logo">TES</div>
             <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Toggle menu">☰</button>
             <nav id="nav-menu">
-                <a href="#home">Home</a>
-                <a href="#resources">Resources</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="resources.html">Resources</a>
                 <a href="#support">Support</a>
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
